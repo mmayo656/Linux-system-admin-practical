@@ -1,11 +1,26 @@
-# Linux-system-admin-practical
+# Linux System Administration Portfolio
 Practical application of linux system administration 
 
-# Linux System Administration Labs
+## Employer Value
+
+This project demonstrates that I can:
+
+- Work in a Linux command-line environment
+- Troubleshoot system, storage, performance, and service issues
+- Manage services using systemctl
+- Review logs using journalctl and syslog
+- Configure firewall rules using UFW
+- Deploy and manage Docker containers
+- Monitor system uptime and performance
+- Configure NFS file sharing between systems
+- Create RAID storage using mdadm
+- Automate backups and scheduled tasks with tar and cron
 
 ## Overview
 
-This project demonstrates hands-on Linux system administration skills using Ubuntu Server in a virtualized lab environment. The labs simulate real-world system administration tasks including networking, security, monitoring, troubleshooting, storage management, automation, and containerization.
+This repository documents a hands-on Linux system administration environment built with Ubuntu Server virtual machines. The project demonstrates practical IT skills including troubleshooting, service management, security hardening, log analysis, Docker container deployment, monitoring, NFS file sharing, RAID storage, backups, and cron automation.
+
+The purpose of this portfolio is to show practical Linux administration ability for entry-level IT support, system administration, NOC, help desk, and cybersecurity roles.
 
 The environment was built and tested using virtual machines and command-line tools to replicate enterprise Linux administration scenarios.
 
