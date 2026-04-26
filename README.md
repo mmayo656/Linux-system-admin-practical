@@ -250,7 +250,7 @@ Skills shown:
 
 ### System Troubleshooting
 
-![top process monitoring](screenshots/01-troubleshooting/top.png)
+![top process monitoring](screenshots/01-troubleshooting/lab06ss1.png)
 
 ![disk usage with df](screenshots/01-troubleshooting/df.png)
 
