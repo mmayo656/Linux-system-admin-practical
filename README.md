@@ -339,7 +339,7 @@ The following screenshots show real command output and system configurations per
 
 ### NFS File Sharing
 
-![NFS mount test](screenshots/06-nfs/lab11mount-work.png)
+![NFS mount test](screenshots/06-nfs/lab11mount-works.png)
 
 ![NFS mount test](screenshots/06-nfs/lab11hello-write.png)
 
