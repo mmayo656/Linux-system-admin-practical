@@ -252,15 +252,29 @@ Skills shown:
 
 ![top process monitoring](screenshots/01-troubleshooting/lab06ss1.png)
 
-![disk usage with df](screenshots/01-troubleshooting/df.png)
+![disk usage with df](screenshots/01-troubleshooting/lab06ss2.png)
 
-![disk I/O with iostat](screenshots/01-troubleshooting/iostat.png)
+![disk I/O with iostat](screenshots/01-troubleshooting/lab06ss3.png)
 
-![kernel messages with dmesg](screenshots/01-troubleshooting/dmesg.png)
+![kernel messages with dmesg](screenshots/01-troubleshooting/dlab06ss4.png)
 
-![open files with lsof](screenshots/01-troubleshooting/lsof.png)
+![open files with lsof](screenshots/01-troubleshooting/lab06ss5.png)
 
-![logged-in users with w](screenshots/01-troubleshooting/w.png)
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss6.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss7.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss8.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss9.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss10.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss11.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss12.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/lab06ss13.png)
 
 ### Security Hardening
 
