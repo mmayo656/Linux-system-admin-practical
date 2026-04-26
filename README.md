@@ -268,65 +268,116 @@ The following screenshots show real command output and system configurations per
 
 ### Security Hardening
 
-![UFW firewall status](screenshots/02-security/ufw-status.png)
+![UFW firewall status](screenshots/02-security/lab08_firewall_enabled.png)
 
-![UFW verbose firewall status](screenshots/02-security/ufw-verbose.png)
+![UFW firewall status](screenshots/02-security/lab08_fw_status_verbose.png)
 
-![GPG encrypted file](screenshots/02-security/gpg-encryption.png)
+![UFW firewall status](screenshots/02-security/lab08_ufw_logging_on.png)
+
+![UFW firewall status](screenshots/02-security/lab08_ufw_deny_23.png)
+
+![UFW firewall status](screenshots/02-security/lab08_ufw_port8080.png)
+
+![UFW firewall status](screenshots/02-security/lab08_allow_ip.png)
+
+![UFW firewall status](screenshots/02-security/lab08_red_team.png)
+
+![UFW firewall status](screenshots/02-security/lab08_final_verify.png)
+
 
 ### Apache and Docker
 
-![Docker hello world](screenshots/03-apache-docker/docker-hello-world.png)
+![Docker hello world](screenshots/03-apache-docker/lab07urlSS.png)
 
-![Apache homepage](screenshots/03-apache-docker/apache-homepage.png)
+![Docker hello world](screenshots/03-apache-docker/lab07serverstatusSS.png)
 
-![Apache server status](screenshots/03-apache-docker/apache-server-status.png)
+![Docker hello world](screenshots/03-apache-docker/lab07serverinfoSS.png)
 
-![Apache server information](screenshots/03-apache-docker/apache-server-info.png)
+![Docker hello world](screenshots/03-apache-docker/lab07nanobottomSS.png)
+
+![Docker hello world](screenshots/03-apache-docker/lab07nanouncommentSS.png)
+
+![Docker hello world](screenshots/03-apache-docker/lab07serverstatusforb.png)
+
+![Docker hello world](screenshots/03-apache-docker/lab07serverinfoforb.png)
+
+![Docker hello world](screenshots/03-apache-docker/lab07containerSS.png)
+
+
 
 ### Log Analysis
 
-![journalctl boot logs](screenshots/04-logs/journalctl-boot.png)
+![journalctl boot logs](screenshots/04-logs/lab09-b-1.png)
 
-![journalctl list boots](screenshots/04-logs/journalctl-list-boots.png)
+![journalctl boot logs](screenshots/04-logs/lab09sinceyesterday.png)
 
-![syslog grep cups](screenshots/04-logs/syslog-grep-cups.png)
+![journalctl boot logs](screenshots/04-logs/lab09-pcrit.png)
 
-![logrotate config](screenshots/04-logs/logrotate-config.png)
+![journalctl boot logs](screenshots/04-logs/lab09-ussh.png)
+
+![journalctl boot logs](screenshots/04-logs/lab09mcben1UID-FUID.png)
+
+![journalctl boot logs](screenshots/04-logs/lab09-k.png)
+
+![journalctl boot logs](screenshots/04-logs/lab09-n50.png)
+
+![journalctl boot logs](screenshots/04-logs/lab09daemonfix.png)
+
 
 ### Monitoring
 
-![htop monitoring](screenshots/05-monitoring/htop.png)
+![htop monitoring](screenshots/05-monitoring/lab10htop-run.png)
 
-![nmon monitoring](screenshots/05-monitoring/nmon.png)
+![htop monitoring](screenshots/05-monitoring/lab10htop-f6.png)
 
-![glances monitoring](screenshots/05-monitoring/glances.png)
+![htop monitoring](screenshots/05-monitoring/lab10htop-search.png)
 
-![Uptime Kuma dashboard](screenshots/05-monitoring/uptime-kuma.png)
+![htop monitoring](screenshots/05-monitoring/lab10htop-f9.png)
+
+![htop monitoring](screenshots/05-monitoring/lab10nmon-tools.png)
+
+![htop monitoring](screenshots/05-monitoring/lab10glances.png)
+
+![htop monitoring](screenshots/05-monitoring/lab10deploy-kuma.png)
+
+![htop monitoring](screenshots/05-monitoring/lab10docker-test.png)
+
+![htop monitoring](screenshots/05-monitoring/lab10kuma-uptime.png)
+
 
 ### NFS File Sharing
 
-![NFS mount test](screenshots/06-nfs/nfs-mount.png)
+![NFS mount test](screenshots/06-nfs/lab11mount-work.png)
 
-![NFS file write test](screenshots/06-nfs/nfs-write-test.png)
+![NFS mount test](screenshots/06-nfs/lab11hello-write.png)
+
+
+
 
 ### RAID Storage
 
-![RAID creation](screenshots/07-raid/mdadm-create.png)
+![RAID creation](screenshots/07-raid/lab12ext4.png)
 
-![RAID mounted](screenshots/07-raid/raid-mounted.png)
+![RAID creation](screenshots/07-raid/lab12raid1-2.png)
 
-![RAID filesystem](screenshots/07-raid/raid-filesystem.png)
+![RAID creation](screenshots/07-raid/lab12raid-mounted.png)
+
+
+
 
 ### Backups and Cron
 
-![tar backup creation](screenshots/08-backups-cron/tar-backup.png)
+![tar backup creation](screenshots/08-backups-cron/lab13files.png)
 
-![files restored](screenshots/08-backups-cron/files-restored.png)
+![tar backup creation](screenshots/08-backups-cron/lab13files-restored.png)
 
-![student cron job](screenshots/08-backups-cron/student-cron.png)
+![tar backup creation](screenshots/08-backups-cron/lab13student-cron-nano.png)
 
-![root cron job](screenshots/08-backups-cron/root-cron.png)
+![tar backup creation](screenshots/08-backups-cron/lab13root-cron-nano.png)
+
+![tar backup creation](screenshots/08-backups-cron/lab13student-verify-cron.png)
+
+
 
 ---
 
