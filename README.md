@@ -1,215 +1,375 @@
 # Linux System Administration Portfolio
 
-This project demonstrates hands-on Linux system administration skills using an Ubuntu Server environment.  
+This repository demonstrates hands-on Linux system administration skills using Ubuntu Server virtual machines in a Proxmox lab environment.
 
-It focuses on real-world IT tasks including system troubleshooting, service management, web server deployment, security hardening, storage management, and automation.
+The project focuses on practical IT tasks used in help desk, IT support, NOC, junior system administration, and cybersecurity support roles, including troubleshooting, service management, firewall configuration, log analysis, Docker deployment, monitoring, NFS file sharing, RAID storage, backups, and cron automation.
 
 ---
 
-## 🔥 Key Skills Demonstrated
+## Career Goal
 
-- Linux CLI administration (Ubuntu Server)
+I am transitioning from patient care into IT, system administration, cybersecurity, and healthcare IT roles. This project is part of my hands-on portfolio showing practical technical ability beyond classroom theory.
+
+---
+
+## Key Skills Demonstrated
+
+- Linux command-line administration
+- Ubuntu Server management
+- Proxmox virtual lab administration
 - System troubleshooting and diagnostics
 - Service management with systemctl
-- Apache web server deployment and hardening
-- Docker container deployment and management
-- Firewall configuration (UFW)
-- Log analysis (journalctl, syslog)
-- System performance monitoring (top, iostat, vmstat)
-- Network file sharing (NFS)
-- RAID configuration (mdadm)
-- Backup automation using tar and cron
-
----
-
-## 🧠 Real-World Scenarios Covered
-
-This project simulates common tasks performed by system administrators:
-
-- Deploying and troubleshooting a web server
-- Securing system services and restricting access
-- Monitoring system performance and diagnosing issues
-- Managing storage and redundancy with RAID
-- Automating backups and maintenance tasks
-
-## Overview
-
-This repository documents a hands-on Linux system administration environment built with Ubuntu Server virtual machines. The project demonstrates practical IT skills including troubleshooting, service management, security hardening, log analysis, Docker container deployment, monitoring, NFS file sharing, RAID storage, backups, and cron automation.
-
-The purpose of this portfolio is to show practical Linux administration ability for entry-level IT support, system administration, NOC, help desk, and cybersecurity roles.
-
-The environment was built and tested using virtual machines and command-line tools to replicate enterprise Linux administration scenarios.
-
----
-
-## Technologies Used
-
-- Ubuntu Server
-- Proxmox virtualization
-- Bash
-- systemd / systemctl
-- journalctl
-- UFW firewall
-- Docker
-- Apache HTTP Server
-- Uptime Kuma
-- htop
-- nmon
-- glances
-- NFS
-- mdadm RAID
-- tar
-- cron
-
----
-
-## Skills Demonstrated
-
-- Linux system administration (Ubuntu Server)
-- Service and process management (systemctl, ps)
-- Bash scripting and automation
-- Network configuration (Netplan, DNS, connectivity testing)
-- System troubleshooting (hardware, filesystem, performance)
-- Security hardening and firewall configuration (UFW, SSH)
-- Log management and analysis (journalctl, syslog)
-- System monitoring (htop, nmon, glances)
-- Containerization using Docker and Apache
-- Network file sharing (NFS)
-- Storage management (RAID 0 configuration)
-- Backup and automation (tar, cron jobs)
-
----
-
-## Lab Breakdown
-
-### System Troubleshooting (IMPORTANT)
-Used Linux diagnostic tools to analyze hardware, performance, and system activity.
-
-- Checked hardware and CPU details using `lshw` and `lscpu`
-- Monitored memory and performance using `free`, `top`, and `vmstat`
-- Analyzed disk usage and partitions using `df`, `lsblk`, and `fdisk`
-- Identified system activity using `w`, `lsof`, and `dmesg`
-
-This lab demonstrates real-world troubleshooting skills used by system administrators. :contentReference[oaicite:0]{index=0}  
-
----
-
-### Service and Process Management
-Managed Linux services using systemctl, including creating and managing a custom daemon. :contentReference[oaicite:1]{index=1}  
-
----
-
-### Bash Scripting
-Created scripts to automate user creation and directory listing. :contentReference[oaicite:2]{index=2}  
-
----
-
-### Network Configuration and Troubleshooting
-Configured static IP addressing using Netplan and verified connectivity. :contentReference[oaicite:3]{index=3}  
-
----
-
-### Docker and Apache Containerization
-Installed Docker and deployed an Apache web server inside a container. :contentReference[oaicite:4]{index=4}  
-
----
-
-### Security and Firewall Management
-Performed system hardening, firewall configuration, and encryption using GPG. :contentReference[oaicite:5]{index=5}  
-
----
-
-### Logging Management
-Used journalctl and syslog tools to analyze system logs. :contentReference[oaicite:6]{index=6}  
-
----
-
-### Monitoring Management
-Used htop, nmon, glances, and Uptime Kuma for system monitoring. :contentReference[oaicite:7]{index=7}  
-
----
-
-### NFS File Sharing
-Configured a Network File System (NFS) server and client. :contentReference[oaicite:8]{index=8}  
-
----
-
-### Filesystem and RAID Management
-Created and mounted a RAID 0 array using mdadm. :contentReference[oaicite:9]{index=9}  
-
----
-
-### Backups and Cron Jobs
-Created backups using tar and automated tasks using cron scheduling. :contentReference[oaicite:10]{index=10}  
+- Apache web server deployment
+- Docker container deployment
+- UFW firewall configuration
+- SSH and access control hardening
+- Log review using journalctl and syslog
+- System monitoring with htop, nmon, glances, and Uptime Kuma
+- NFS file sharing between Linux systems
+- RAID storage configuration with mdadm
+- Backup creation and restoration using tar
+- Task automation using cron
 
 ---
 
 ## Environment
 
-- Ubuntu Server (Virtual Machine)
+- Ubuntu Server virtual machines
 - Proxmox virtualization platform
-- Command-line based administration
+- Linux command-line interface
+- Internal lab network
+- Docker containers
+- Apache HTTP Server
+- NFS server/client configuration
 
 ---
 
-## Key Takeaways
+## Project Sections
 
-- Developed practical Linux administration skills in a simulated enterprise environment  
-- Gained real-world troubleshooting experience using command-line tools  
-- Built foundational knowledge in networking, security, and automation  
+### 1. System Troubleshooting and Diagnostics
+
+Used Linux diagnostic tools to inspect system performance, storage, memory, processes, users, disk activity, and kernel messages.
+
+Tools used:
+
+- `top`
+- `htop`
+- `vmstat`
+- `iostat`
+- `df`
+- `fdisk`
+- `dmesg`
+- `lsof`
+- `w`
+
+Skills shown:
+
+- Identifying running processes
+- Reviewing CPU and memory usage
+- Checking disk usage and partitions
+- Reviewing disk I/O activity
+- Viewing kernel and hardware messages
+- Identifying logged-in users and active sessions
 
 ---
 
-## Future Improvements
+### 2. Security Hardening and Firewall Configuration
 
-- Add screenshots of lab outputs and configurations  
-- Expand automation scripts  
-- Integrate monitoring dashboards
+Configured Linux security controls using UFW, SSH settings, user account management, and GPG encryption.
 
+Tasks completed:
+
+- Created and managed Linux user accounts
+- Reviewed password/shadow file information
+- Encrypted files using GPG
+- Configured SSH-related settings
+- Enabled UFW firewall
+- Denied insecure Telnet traffic on port 23
+- Allowed required service ports
+- Reviewed firewall status and numbered rules
+
+Skills shown:
+
+- Basic Linux hardening
+- Firewall rule creation
+- Access control awareness
+- Secure file handling
+- Troubleshooting firewall behavior
+
+---
+
+### 3. Apache Web Server and Docker
+
+Deployed Apache inside a Docker container and configured access to Apache status and information pages.
+
+Tasks completed:
+
+- Installed and tested Docker
+- Ran the Docker `hello-world` container
+- Deployed Apache HTTP Server using Docker
+- Created and served a basic web page
+- Modified Apache configuration files
+- Enabled server status and server information pages
+- Tested restricted and allowed access behavior
+
+Skills shown:
+
+- Container deployment
+- Web server configuration
+- Apache module/configuration awareness
+- Basic web service troubleshooting
+- Understanding of host/container networking behavior
+
+---
+
+### 4. Log Management and Analysis
+
+Used Linux logging tools to investigate system events, services, boot history, SSH activity, and application logs.
+
+Tools used:
+
+- `journalctl`
+- `tail`
+- `grep`
+- `logrotate`
+
+Tasks completed:
+
+- Reviewed kernel logs
+- Listed system boots
+- Viewed logs from the current and previous boot
+- Filtered logs by time
+- Filtered logs by service
+- Searched syslog entries with grep
+- Reviewed and edited logrotate configuration
+
+Skills shown:
+
+- Reading system logs
+- Filtering events
+- Investigating service activity
+- Understanding log rotation and retention
+
+---
+
+### 5. System Monitoring
+
+Installed and used multiple monitoring tools to observe Linux system health and service uptime.
+
+Tools used:
+
+- `htop`
+- `nmon`
+- `glances`
+- `Uptime Kuma`
+
+Tasks completed:
+
+- Monitored CPU, memory, disk, and process activity
+- Viewed system resource usage in real time
+- Deployed Uptime Kuma with Docker
+- Added monitored services
+- Verified uptime status and service availability
+
+Skills shown:
+
+- Performance monitoring
+- Service health checks
+- Docker-based monitoring deployment
+- Basic infrastructure visibility
+
+---
+
+### 6. NFS File Sharing
+
+Configured Network File System sharing between Linux systems.
+
+Tasks completed:
+
+- Installed NFS client/server components
+- Mounted an NFS share from a client system
+- Verified mounted file access
+- Created and read files across the share
+
+Skills shown:
+
+- Linux file sharing
+- Client/server configuration
+- Mount testing
+- Network storage troubleshooting
+
+---
+
+### 7. RAID Storage Management
+
+Configured Linux software RAID using `mdadm`.
+
+Tasks completed:
+
+- Reviewed disk layout with `lsblk`
+- Created a RAID array using two virtual disks
+- Formatted the RAID device with ext4
+- Mounted the RAID array
+- Verified the mounted filesystem
+
+Skills shown:
+
+- Storage administration
+- RAID configuration
+- Filesystem creation
+- Mount point management
+- Disk verification
+
+---
+
+### 8. Backups and Cron Automation
+
+Created backups using `tar` and automated tasks using cron.
+
+Tasks completed:
+
+- Created test files
+- Created tar backup archives
+- Added files to existing archives
+- Extracted and restored backup files
+- Created user cron jobs
+- Created root cron jobs
+- Verified scheduled tasks with crontab output
+
+Skills shown:
+
+- Backup creation
+- Backup verification
+- File restoration
+- Task scheduling
+- Automation basics
+
+---
+
+## Project Evidence
+
+### System Troubleshooting
+
+![top process monitoring](screenshots/01-troubleshooting/top.png)
+
+![disk usage with df](screenshots/01-troubleshooting/df.png)
+
+![disk I/O with iostat](screenshots/01-troubleshooting/iostat.png)
+
+![kernel messages with dmesg](screenshots/01-troubleshooting/dmesg.png)
+
+![open files with lsof](screenshots/01-troubleshooting/lsof.png)
+
+![logged-in users with w](screenshots/01-troubleshooting/w.png)
+
+### Security Hardening
+
+![UFW firewall status](screenshots/02-security/ufw-status.png)
+
+![UFW verbose firewall status](screenshots/02-security/ufw-verbose.png)
+
+![GPG encrypted file](screenshots/02-security/gpg-encryption.png)
+
+### Apache and Docker
+
+![Docker hello world](screenshots/03-apache-docker/docker-hello-world.png)
+
+![Apache homepage](screenshots/03-apache-docker/apache-homepage.png)
+
+![Apache server status](screenshots/03-apache-docker/apache-server-status.png)
+
+![Apache server information](screenshots/03-apache-docker/apache-server-info.png)
+
+### Log Analysis
+
+![journalctl boot logs](screenshots/04-logs/journalctl-boot.png)
+
+![journalctl list boots](screenshots/04-logs/journalctl-list-boots.png)
+
+![syslog grep cups](screenshots/04-logs/syslog-grep-cups.png)
+
+![logrotate config](screenshots/04-logs/logrotate-config.png)
+
+### Monitoring
+
+![htop monitoring](screenshots/05-monitoring/htop.png)
+
+![nmon monitoring](screenshots/05-monitoring/nmon.png)
+
+![glances monitoring](screenshots/05-monitoring/glances.png)
+
+![Uptime Kuma dashboard](screenshots/05-monitoring/uptime-kuma.png)
+
+### NFS File Sharing
+
+![NFS mount test](screenshots/06-nfs/nfs-mount.png)
+
+![NFS file write test](screenshots/06-nfs/nfs-write-test.png)
+
+### RAID Storage
+
+![RAID creation](screenshots/07-raid/mdadm-create.png)
+
+![RAID mounted](screenshots/07-raid/raid-mounted.png)
+
+![RAID filesystem](screenshots/07-raid/raid-filesystem.png)
+
+### Backups and Cron
+
+![tar backup creation](screenshots/08-backups-cron/tar-backup.png)
+
+![files restored](screenshots/08-backups-cron/files-restored.png)
+
+![student cron job](screenshots/08-backups-cron/student-cron.png)
+
+![root cron job](screenshots/08-backups-cron/root-cron.png)
+
+---
+
+## Real-World Application
+
+This project shows practical skills used in entry-level IT and system administration work:
+
+- Troubleshooting slow or unstable Linux systems
+- Checking running processes and system resource usage
+- Reviewing system and application logs
+- Managing firewall rules and service access
+- Deploying and validating Docker containers
+- Monitoring service availability
+- Sharing files between Linux systems
+- Managing disks, filesystems, and RAID storage
+- Creating backups and automating scheduled tasks
+
+---
+
+## Resume Relevance
+
+This project supports my transition from healthcare/patient care into IT by showing practical Linux administration skills alongside my existing healthcare technology background, PACS troubleshooting experience, Windows administration labs, and cybersecurity education.
 
 ---
 
 ## Career Relevance
 
-This portfolio demonstrates practical Linux administration skills that apply directly to IT support, help desk, junior system administration, NOC technician, and cybersecurity support roles. The work shows experience with troubleshooting, service management, system monitoring, security controls, storage, networking, and automation.
+This portfolio is relevant to roles such as:
 
-## Project Evidence
+- Help Desk Technician
+- IT Support Specialist
+- Desktop Support Technician
+- NOC Technician
+- Junior Linux Administrator
+- Junior System Administrator
+- Healthcare IT Support Specialist
+- PACS Support Analyst
+- Cybersecurity Support Technician
 
-### System Troubleshooting
-![top process monitoring](screenshots/01-troubleshooting/top.png)
-![disk usage with df](screenshots/01-troubleshooting/df.png)
-![disk I/O with iostat](screenshots/01-troubleshooting/iostat.png)
-![kernel messages with dmesg](screenshots/01-troubleshooting/dmesg.png)
+---
 
-### Security Hardening
-![UFW firewall status](screenshots/02-security/ufw-status.png)
-![GPG encrypted file](screenshots/02-security/gpg-encryption.png)
+## Next Improvements
 
-### Apache and Docker
-![Docker hello world](screenshots/03-apache-docker/docker-hello-world.png)
-![Apache homepage](screenshots/03-apache-docker/apache-homepage.png)
-![Apache server status](screenshots/03-apache-docker/apache-server-status.png)
+Planned future improvements include:
 
-### Log Analysis
-![journalctl boot logs](screenshots/04-logs/journalctl-boot.png)
-![syslog grep cups](screenshots/04-logs/syslog-grep-cups.png)
-![logrotate config](screenshots/04-logs/logrotate-config.png)
-
-### Monitoring
-![htop monitoring](screenshots/05-monitoring/htop.png)
-![nmon monitoring](screenshots/05-monitoring/nmon.png)
-![glances monitoring](screenshots/05-monitoring/glances.png)
-![Uptime Kuma dashboard](screenshots/05-monitoring/uptime-kuma.png)
-
-### NFS File Sharing
-![NFS mount test](screenshots/06-nfs/nfs-mount.png)
-![NFS file write test](screenshots/06-nfs/nfs-write-test.png)
-
-### RAID Storage
-![RAID creation](screenshots/07-raid/mdadm-create.png)
-![RAID mounted](screenshots/07-raid/raid-mounted.png)
-
-### Backups and Cron
-![tar backup creation](screenshots/08-backups-cron/tar-backup.png)
-![files restored](screenshots/08-backups-cron/files-restored.png)
-![cron job configured](screenshots/08-backups-cron/cron-config.png)
+- Adding more Bash automation scripts
+- Expanding service troubleshooting examples
+- Adding a networking-focused lab section
+- Adding security auditing examples
+- Linking this project with Windows Server and Active Directory portfolio work
