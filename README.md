@@ -268,21 +268,21 @@ The following screenshots show real command output and system configurations per
 
 ### Security Hardening
 
-![UFW firewall status](screenshots/02-security/lab08_firewall_enabled.png)
+![UFW firewall status](screenshots/02-security/lab08firewallenabled.png)
 
-![UFW firewall status](screenshots/02-security/lab08_fw_status_verbose.png)
+![UFW firewall status](screenshots/02-security/lab08fwstatusverbose.png)
 
-![UFW firewall status](screenshots/02-security/lab08_ufw_logging_on.png)
+![UFW firewall status](screenshots/02-security/lab08ufwloggingon.png)
 
-![UFW firewall status](screenshots/02-security/lab08_ufw_deny_23.png)
+![UFW firewall status](screenshots/02-security/lab08ufwdeny23.png)
 
-![UFW firewall status](screenshots/02-security/lab08_ufw_port8080.png)
+![UFW firewall status](screenshots/02-security/lab08ufwport8080.png)
 
-![UFW firewall status](screenshots/02-security/lab08_allow_ip.png)
+![UFW firewall status](screenshots/02-security/lab08allowip.png)
 
-![UFW firewall status](screenshots/02-security/lab08_red_team.png)
+![UFW firewall status](screenshots/02-security/lab08redteam.png)
 
-![UFW firewall status](screenshots/02-security/lab08_final_verify.png)
+![UFW firewall status](screenshots/02-security/lab08finalverify.png)
 
 
 ### Apache and Docker
