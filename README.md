@@ -26,6 +26,27 @@ The environment was built and tested using virtual machines and command-line too
 
 ---
 
+## Technologies Used
+
+- Ubuntu Server
+- Proxmox virtualization
+- Bash
+- systemd / systemctl
+- journalctl
+- UFW firewall
+- Docker
+- Apache HTTP Server
+- Uptime Kuma
+- htop
+- nmon
+- glances
+- NFS
+- mdadm RAID
+- tar
+- cron
+
+---
+
 ## Skills Demonstrated
 
 - Linux system administration (Ubuntu Server)
@@ -127,7 +148,14 @@ Created backups using tar and automated tasks using cron scheduling. :contentRef
 
 - Add screenshots of lab outputs and configurations  
 - Expand automation scripts  
-- Integrate monitoring dashboards  
+- Integrate monitoring dashboards
+
+
+---
+
+## Career Relevance
+
+This portfolio demonstrates practical Linux administration skills that apply directly to IT support, help desk, junior system administration, NOC technician, and cybersecurity support roles. The work shows experience with troubleshooting, service management, system monitoring, security controls, storage, networking, and automation.
 
 ## Project Evidence
 
