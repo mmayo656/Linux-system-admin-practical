@@ -128,3 +128,44 @@ Created backups using tar and automated tasks using cron scheduling. :contentRef
 - Add screenshots of lab outputs and configurations  
 - Expand automation scripts  
 - Integrate monitoring dashboards  
+
+## Project Evidence
+
+### System Troubleshooting
+![top process monitoring](screenshots/01-troubleshooting/top.png)
+![disk usage with df](screenshots/01-troubleshooting/df.png)
+![disk I/O with iostat](screenshots/01-troubleshooting/iostat.png)
+![kernel messages with dmesg](screenshots/01-troubleshooting/dmesg.png)
+
+### Security Hardening
+![UFW firewall status](screenshots/02-security/ufw-status.png)
+![GPG encrypted file](screenshots/02-security/gpg-encryption.png)
+
+### Apache and Docker
+![Docker hello world](screenshots/03-apache-docker/docker-hello-world.png)
+![Apache homepage](screenshots/03-apache-docker/apache-homepage.png)
+![Apache server status](screenshots/03-apache-docker/apache-server-status.png)
+
+### Log Analysis
+![journalctl boot logs](screenshots/04-logs/journalctl-boot.png)
+![syslog grep cups](screenshots/04-logs/syslog-grep-cups.png)
+![logrotate config](screenshots/04-logs/logrotate-config.png)
+
+### Monitoring
+![htop monitoring](screenshots/05-monitoring/htop.png)
+![nmon monitoring](screenshots/05-monitoring/nmon.png)
+![glances monitoring](screenshots/05-monitoring/glances.png)
+![Uptime Kuma dashboard](screenshots/05-monitoring/uptime-kuma.png)
+
+### NFS File Sharing
+![NFS mount test](screenshots/06-nfs/nfs-mount.png)
+![NFS file write test](screenshots/06-nfs/nfs-write-test.png)
+
+### RAID Storage
+![RAID creation](screenshots/07-raid/mdadm-create.png)
+![RAID mounted](screenshots/07-raid/raid-mounted.png)
+
+### Backups and Cron
+![tar backup creation](screenshots/08-backups-cron/tar-backup.png)
+![files restored](screenshots/08-backups-cron/files-restored.png)
+![cron job configured](screenshots/08-backups-cron/cron-config.png)
