@@ -282,8 +282,6 @@ The following screenshots show real command output and system configurations per
 
 ![UFW firewall status](screenshots/02-security/lab08redteam.png)
 
-![UFW firewall status](screenshots/02-security/lab08finalverify.png)
-
 
 ### Apache and Docker
 
@@ -307,10 +305,6 @@ The following screenshots show real command output and system configurations per
 
 ### Log Analysis
 
-![journalctl boot logs](screenshots/04-logs/lab09-b-1.png)
-
-![journalctl boot logs](screenshots/04-logs/lab09sinceyesterday.png)
-
 ![journalctl boot logs](screenshots/04-logs/lab09-pcrit.png)
 
 ![journalctl boot logs](screenshots/04-logs/lab09-ussh.png)
@@ -318,8 +312,6 @@ The following screenshots show real command output and system configurations per
 ![journalctl boot logs](screenshots/04-logs/lab09mcben1UID-FUID.png)
 
 ![journalctl boot logs](screenshots/04-logs/lab09-k.png)
-
-![journalctl boot logs](screenshots/04-logs/lab09-n50.png)
 
 ![journalctl boot logs](screenshots/04-logs/lab09daemonfix.png)
 
