@@ -1,20 +1,36 @@
 # Linux System Administration Portfolio
-Practical application of linux system administration 
 
-## Employer Value
+This project demonstrates hands-on Linux system administration skills using an Ubuntu Server environment.  
 
-This project demonstrates that I can:
+It focuses on real-world IT tasks including system troubleshooting, service management, web server deployment, security hardening, storage management, and automation.
 
-- Work in a Linux command-line environment
-- Troubleshoot system, storage, performance, and service issues
-- Manage services using systemctl
-- Review logs using journalctl and syslog
-- Configure firewall rules using UFW
-- Deploy and manage Docker containers
-- Monitor system uptime and performance
-- Configure NFS file sharing between systems
-- Create RAID storage using mdadm
-- Automate backups and scheduled tasks with tar and cron
+---
+
+## 🔥 Key Skills Demonstrated
+
+- Linux CLI administration (Ubuntu Server)
+- System troubleshooting and diagnostics
+- Service management with systemctl
+- Apache web server deployment and hardening
+- Docker container deployment and management
+- Firewall configuration (UFW)
+- Log analysis (journalctl, syslog)
+- System performance monitoring (top, iostat, vmstat)
+- Network file sharing (NFS)
+- RAID configuration (mdadm)
+- Backup automation using tar and cron
+
+---
+
+## 🧠 Real-World Scenarios Covered
+
+This project simulates common tasks performed by system administrators:
+
+- Deploying and troubleshooting a web server
+- Securing system services and restricting access
+- Monitoring system performance and diagnosing issues
+- Managing storage and redundancy with RAID
+- Automating backups and maintenance tasks
 
 ## Overview
 
