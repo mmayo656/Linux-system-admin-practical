@@ -248,33 +248,23 @@ Skills shown:
 
 ## Project Evidence
 
+The following screenshots show real command output and system configurations performed during this project.
+
 ### System Troubleshooting
 
-![top process monitoring](screenshots/01-troubleshooting/lab06ss1.png)
 
-![disk usage with df](screenshots/01-troubleshooting/lab06ss2.png)
+![Process monitoring using top](screenshots/01-troubleshooting/lab06ss1.png)
 
-![disk I/O with iostat](screenshots/01-troubleshooting/lab06ss3.png)
+![Disk usage using df](screenshots/01-troubleshooting/lab06ss2.png)
 
-![kernel messages with dmesg](screenshots/01-troubleshooting/dlab06ss4.png)
+![Disk I/O using iostat](screenshots/01-troubleshooting/lab06ss3.png)
 
-![open files with lsof](screenshots/01-troubleshooting/lab06ss5.png)
+![Kernel messages using dmesg](screenshots/01-troubleshooting/lab06ss4.png)
 
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss6.png)
+![Open files using lsof](screenshots/01-troubleshooting/lab06ss5.png)
 
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss7.png)
+![Active users using w](screenshots/01-troubleshooting/lab06ss6.png)
 
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss8.png)
-
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss9.png)
-
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss10.png)
-
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss11.png)
-
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss12.png)
-
-![logged-in users with w](screenshots/01-troubleshooting/lab06ss13.png)
 
 ### Security Hardening
 
